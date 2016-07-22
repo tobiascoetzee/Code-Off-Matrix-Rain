@@ -105,7 +105,7 @@ public class Drop {
         }
 
         //middle
-        if ((x > startX + 240 && x < startX + 260) && (realY > startY && realY < startY + 115)) {
+        if ((x > startX + 240 && x < startX + 250) && (realY > startY && realY < startY + 115)) {
             colour = Colours.RED;
         }
 
