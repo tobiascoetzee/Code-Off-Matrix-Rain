@@ -31,7 +31,7 @@ public class Drop {
     public void draw(Graphics2D g2) {
         int fontSize = g2.getFont().getSize();
         for (int i = 0; i < length; i++) {
-            Colours colour = Colours.BLUE;
+            Colours colour = Colours.GREEN;
             Shade shade;
 
             if (getRandomInteger(0, length) == i)
@@ -63,22 +63,22 @@ public class Drop {
         //6
         //left side
         if ((x > startX + 360 && x < startX + 380) && (realY > startY && realY < startY + 115)) {
-            colour = Colours.YELLOW;
+            colour = Colours.BLUE;
         }
 
         //bottom
         if ((x > startX + 360 && x < startX + 430) && (realY > startY + 100 && realY < startY + 115)) {
-            colour = Colours.YELLOW;
+            colour = Colours.BLUE;
         }
 
         //right side
         if ((x > startX + 410 && x < startX + 430) && (realY > startY + 50 && realY < startY + 115)) {
-            colour = Colours.YELLOW;
+            colour = Colours.BLUE;
         }
 
         //middle
         if ((x > startX + 360 && x < startX + 430) && (realY > startY + 50 && realY < startY + 55)) {
-            colour = Colours.YELLOW;
+            colour = Colours.BLUE;
         }
         return colour;
     }
@@ -87,12 +87,12 @@ public class Drop {
         //1
         //top
         if ((x > startX + 300 && x < startX + 320) && (realY > startY && realY < startY + 15)) {
-            colour = Colours.YELLOW;
+            colour = Colours.BLUE;
         }
 
         //middle
         if ((x > startX + 320 && x < startX + 340) && (realY > startY && realY < startY + 115)) {
-            colour = Colours.YELLOW;
+            colour = Colours.BLUE;
         }
         return colour;
     }

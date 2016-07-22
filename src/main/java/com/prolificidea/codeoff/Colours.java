@@ -1,7 +1,7 @@
 package com.prolificidea.codeoff;
 
 public enum  Colours {
-    BLUE,
+    GREEN,
     RED,
-    YELLOW
+    BLUE
 }
