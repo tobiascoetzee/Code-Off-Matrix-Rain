@@ -22,7 +22,7 @@ public class Rain extends JPanel {
         Graphics2D g2 = (Graphics2D) g;
         g.fillRect(0, 0, Config.SCREEN_SIZE, Config.SCREEN_SIZE);
         g.setColor(Color.BLACK);
-        Font font = new Font("Monospaced", Font.PLAIN, Config.FONT_SIZE);
+        Font font = new Font("SANS_SERIF", Font.PLAIN, Config.FONT_SIZE);
         g2.setFont(font);
 
         for (int i = 0; i < drops.length; i++) {

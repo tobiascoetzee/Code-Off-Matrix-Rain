@@ -16,7 +16,7 @@ public class Drop {
         this.x = x;
         length = getRandomInteger(30, 60);
         text = createContent(length);
-        velocity = getRandomInteger(10, 50);
+        velocity = getRandomInteger(5, 10);
         this.y = (-1) * length * Config.FONT_SIZE;
     }
 
@@ -156,7 +156,10 @@ public class Drop {
     }
 
     public char getRandomCharacter() {
-        return (char) (rng.nextInt(26) + 'a');
+        int minJpnCharCode = 0x30a0;
+        int maxJpnCharCode = 0x30ff;
+
+        return (char)getRandomInteger(minJpnCharCode, maxJpnCharCode);
     }
 
     public int getRandomInteger(int min, int max) {
