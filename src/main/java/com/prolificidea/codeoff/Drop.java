@@ -38,7 +38,7 @@ public class Drop {
                 text[i][0] = getRandomCharacter();
             if (i >= length - 5)
                 shade = Shade.LIGHT;
-            else if (i <= length - 6 && i >= length - 20)
+            else if (i <= length - 6 && i >= length - 30)
                 shade = Shade.MEDIUM;
             else
                 shade = Shade.DARK;
